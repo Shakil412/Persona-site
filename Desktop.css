@@ -1,0 +1,263 @@
+
+/* for desktop */
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.logo{
+
+    text-align: left;
+}
+
+.navbar .heading h1{
+
+    text-align: right;
+}
+
+.heading h1{
+
+    margin-top: 20px ;
+    margin-right: 35px;
+}
+
+.navbar{
+
+    
+}
+
+
+.nav-menu{
+    flex-direction: row ;
+    justify-content: flex-end;
+}
+
+
+.nav-menu a{
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+/* Nabar finished  here  */
+
+
+
+/* Profile des start here  */
+
+.profile .top-weather-icon{
+
+    right: 100px;
+    width: 100px;
+    transition: width 2s, transform 2s;
+
+}
+
+.profile .top-weather-icon:hover{
+
+    width: 180px;
+
+}
+
+
+
+.profile .bottom-weather-icon{
+
+    left: 140px;
+    width: 100px;
+    transition: width 2s, transform 2s;
+
+}
+
+.profile .bottom-weather-icon:hover{
+
+    width: 180px;
+
+}
+
+
+.profile-des p{
+    
+    color: #3093d1;
+    margin: 0 auto 20px auto;
+    text-align: justify;
+    width: 50%;
+    
+
+}
+
+
+
+
+/* profile design ends here  */
+
+/* Youtube Content Starts here  */
+
+
+.all-video{
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Youtube Content Ends here  */
+
+
+
+
+
+/* about me starts here  */
+
+.about-me-image  {
+
+    margin-top: 100px;
+
+
+}
+
+
+.about-me img{
+
+     
+    height: 270px;
+    width: 250px;
+
+}
+
+
+.about-me-desc p {
+
+        text-align: justify;
+        color: rgb(0, 0, 0);
+        
+
+}
+
+/* Professional Experience starts here */
+
+
+.professional-experience{
+
+    padding: 1% 7%;
+
+}
+
+
+
+/* Professional Experience ends here */
+
+
+
+/* Conatact section start here  */
+
+
+.footer{
+
+    padding-right: 50px;
+    height: 100%;
+
+}
+
+
+
+
+
+.contact button{
+    width: 150px;
+}
+
+
+.contact-links{
+    position: relative;
+}
+
+
+.contact-links .media-button{
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50% );
+}
+
+
+.contact-links .media-button{
+
+    margin-top: 50%;
+}
+
+/* Conatact section ends here  */
+
+
+
+.footer-section{
+    align-items: center;
+    display: inline-block;
+    width: 100%;
+    
+}
+
+
+
+.footer-menu {
+
+    background-color: black;
+    text-align: center;
+    padding: 40px;
+    
+
+
+}
+
+.footer-menu a{
+    
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 12px;
+    display: inline-block;
+    margin: 5px;
+    
+
+}
+
+.footer-menu a:hover{
+    background-color: gray;
+    width: 120px;
+ 
+
+
+}
+
+
+.footer-desc{
+
+    margin-top: 2%;
+}
+
+
+
+
+
+
+

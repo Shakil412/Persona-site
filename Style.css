@@ -1,0 +1,680 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Russo One', sans-serif;
+
+}
+
+body{
+    margin: 0;
+
+}
+/* navbar start here  */
+.navbar{
+
+    width: 100% ;
+    background-color: #0081CF;
+    text-align: center;
+
+
+}
+
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* for desktop */
+
+[class*="col-"]{
+
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+
+/* for mobile */
+
+[class*="col-"]{
+
+    width: 100% ;
+}
+
+
+.navbar::after{
+
+    display: table;
+    clear: both;
+    content: '';
+}
+
+
+.navbar .logo{
+    
+
+
+}
+
+.navbar .logo img{
+    height: 85px;
+    width: 85px;
+    margin: 10px;
+    border-radius: 50%;
+
+
+}
+
+.navbar .heading{
+
+
+}
+
+.navbar .heading h1{
+
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(0, 0, 0); 
+
+
+
+
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+
+}
+
+
+.nav-menu a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+ 
+    padding: 15px;
+    margin: 7px 0px;
+    
+    
+    
+    
+    
+}
+
+.nav-menu a:hover{
+    background-color: black;
+    border: 2px solid white;
+    transition: 0.5s;
+    
+}
+
+
+/* Nabar finished  here  */
+
+
+/* profile design start here  */
+
+p{
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 0.8cm;
+}
+
+
+.profile{
+
+    padding: 130px 10px;
+    text-align: center;
+    position: relative;
+
+}
+
+.profile .top-weather-icon{
+
+    position: absolute;
+    right: 60px;
+    top: 20px;
+    transition: transform 2s;
+
+}
+
+.profile .top-weather-icon:hover{
+
+    transform: rotate(360deg);
+
+}
+
+img{
+
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
+
+
+.profile-des{
+
+
+
+}
+
+.profile-des h1{
+
+    font-family: 'Russo One', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    
+
+
+}
+
+.profile-des p{
+    
+    color: #3093d1;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    width: 90%;
+    text-align: justify;
+
+}
+
+.profile .bottom-weather-icon{
+
+    position: absolute;
+    left: 60px;
+    bottom: 10px;
+    transition: transform 2s;
+
+}
+
+.profile .bottom-weather-icon:hover{
+
+    transform: rotate(360deg);
+
+}
+
+
+.profile::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+
+/* profile design ends here  */
+
+
+ /* Vlogging video Starts here   */
+
+
+
+ /* About Section Starts here */
+
+.about-me{
+
+    background-color: #3093d1;
+    padding: 1% 7%;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+
+.about-me img{
+
+    height: 200px;
+    width: 200px;
+    border: 5px solid rgb(58, 50, 50);
+    border-radius: 50%;
+    
+
+
+
+}
+
+
+.about-me p{
+
+    text-align: center;
+
+}
+
+
+.about-me a{
+
+    font-size: 1.2rem;
+
+}
+
+.about-me::after{
+
+    clear: both;
+    display: table;
+    content: '';
+
+}
+
+
+
+.dotted-hr{
+
+    border: dotted 6px white;
+    border-bottom: none;
+    margin: 20px auto ;
+    width: 70px;
+}
+
+.about-me-hr{
+
+    margin: 15px;
+}
+
+
+.cv-button{
+
+    background-color: #052d2f;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 13px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+
+}
+
+
+ /* About Section ends here */
+
+
+ /* Professional Experience starts here  */
+
+
+.professional-experience{
+
+    padding: 1% 0% ;
+}
+
+.professional-experience .card{
+
+    background-color: chocolate;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s ;
+    height: 730px;
+
+}
+
+.professional-experience .card:hover{
+
+    box-shadow: 0px 4px 8px 5px black;
+}
+
+.card-icon{
+
+    text-align: center;
+}
+
+.card-icon img{
+
+    margin-top: 20px;
+    width: 100px;
+    
+
+}
+
+.card-title{
+
+    margin-top: 20px;
+
+}
+
+
+.rounded-img{
+    border: 5px solid white;
+    border-radius: 50px;
+    padding: 15px;
+
+
+}
+
+.card-title h2{
+
+    background-color: rgb(119, 87, 19);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+
+
+
+.skills-container{
+    padding-right: 45px;
+
+
+    
+}
+
+
+.skills-container li {
+    list-style: none;
+    font-weight: bold;
+    margin: 30px 10px;
+    position: relative;
+    text-transform: uppercase;
+
+}
+.skills-container li::before {
+    content: '';
+    position: absolute;
+    background-color: rgb(36, 34, 34) ;
+    top: calc(100% + 5px);
+    width: 100%;
+    height: 10px;
+    left: 0;
+    
+
+}
+.skills-container li::after {
+    content: '';
+    position: absolute;
+    background-color: rgb(253, 249, 9) ;
+    top: calc(100% + 5px);
+    width: 0%;
+    height: 10px;
+    left: 0;
+    animation: 3s ;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+
+}
+
+.skills-container li.HTML::after{
+    animation-name: HTML;
+
+}
+
+@keyframes HTML {
+
+    to{
+        width: 90% ;
+    }
+    
+}
+
+.skills-container li.CSS::after{
+    animation-name: CSS;
+
+}
+
+@keyframes CSS {
+
+    to{
+        width: 80% ;
+    }
+    
+}
+
+.skills-container li.JAVASCRIPT::after{
+    animation-name: JAVASCRIPT;
+
+}
+
+@keyframes JAVASCRIPT {
+
+    to{
+        width: 70% ;
+    }
+    
+}
+
+.skills-container li.BOOTSTRAP::after{
+    animation-name: BOOTSTRAP;
+
+}
+
+@keyframes BOOTSTRAP {
+
+    to{
+        width: 85% ;
+    }
+    
+}
+
+.skills-container li.JQUERY::after{
+    animation-name: JQUERY;
+
+}
+
+@keyframes JQUERY {
+
+    to{
+        width: 55% ;
+    }
+    
+}
+
+
+.skills-container li.NODE::after{
+    animation-name: NODE;
+
+}
+
+@keyframes NODE {
+
+    to{
+        width: 85% ;
+    }
+    
+}
+
+.skills-container li.EXPRESS::after{
+    animation-name: EXPRESS;
+
+}
+
+@keyframes EXPRESS {
+
+    to{
+        width: 30% ;
+    }
+    
+}
+
+.skills-container li.GITHUB::after{
+    animation-name: GITHUB;
+
+}
+
+@keyframes GITHUB {
+
+    to{
+        width: 78% ;
+    }
+    
+}
+
+.skills-container li.REACT::after{
+    animation-name: REACT;
+
+}
+
+@keyframes REACT {
+
+    to{
+        width: 60% ;
+    }
+    
+}
+
+
+ /* Professional Experience ends here  */
+
+ .professional-experience::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+
+
+ /* Conatact section starts here */
+
+
+.footer{
+    padding: 1% 7%;
+    background-color: #0081CF;
+    height: 100%;
+    width: 100%;
+    color: white;
+
+
+}
+
+.contact{
+    
+    text-align: center;
+    padding: 1% 7%;
+
+
+}
+
+.footer::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+
+
+
+.contact input , textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+
+
+}
+
+.contact button{
+    border: none;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.63);
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+ /* Conatact section ends here */
+
+
+/* Social Media contact section starts here */
+
+
+.contact-links{
+
+    text-align: center;
+}
+
+
+.media-button .btn {
+
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 32px;
+    padding: 5px;
+    margin: 10px;
+    background-color: white;
+    width: 50px;
+
+}
+
+
+.media-button .btn:hover {
+
+    background-color: gray;
+    border: 1px solid black;
+
+}
+
+
+ /* Social Media contact section ends here */
+
+
+ .contact-section::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+
+
+
+
+/* Footer section starts here   */
+
+.footer-section{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+
+.footer-menu {
+
+  
+
+
+}
+.footer-menu a{
+
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+
+
+.footer-menu a:hover{
+    background-color: gray;
+    border: 2px solid white;
+    width: 100%;
+    border-radius: 5px;
+
+
+}
+
+.footer-desc{
+
+    text-align: center;
+}
+
+ 
+
+
+/* Footer section ends here   */
