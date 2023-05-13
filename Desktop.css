@@ -210,10 +210,12 @@
 
 
 
+
 .footer-section{
     align-items: center;
     display: inline-block;
     width: 100%;
+    color: white;
     
 }
 
@@ -224,7 +226,7 @@
     background-color: black;
     text-align: center;
     padding: 40px;
-    
+
 
 
 }
@@ -250,12 +252,12 @@
 }
 
 
+
+
 .footer-desc{
 
     margin-top: 2%;
 }
-
-
 
 
 
