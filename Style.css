@@ -633,16 +633,18 @@ img{
 
 
 /* Footer section starts here   */
-
 .footer-section{
-    background-color: black;
-    color: white;
-    text-align: center;
+ 
+        background-color: black;
     
 }
 
 
 .footer-menu {
+
+    background-color: black;
+    color: white;
+    
 
   
 
@@ -669,12 +671,18 @@ img{
 
 }
 
+.footer-section::after{
+
+    content: '';
+    display: table;
+    clear: both;
+}
+
 .footer-desc{
 
     text-align: center;
+    color: white;
 }
 
  
 
-
-/* Footer section ends here   */
